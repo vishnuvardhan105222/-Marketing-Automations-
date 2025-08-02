@@ -1,0 +1,24 @@
+
+Chatbot Questions:
+1. What's your name?
+2. What's your email?
+3. What's your phone number?
+4. Are you a student or working professional?
+5. Is your background tech or non-tech?
+6. What career path are you interested in? (Full Stack, Data Science, etc.)
+7. Are you ready to start within the next 30 days?
+
+Conditional Messaging:
+- Student + Tech → "You're eligible for our Full Stack Fast-Track!"
+- Working + Non-Tech → "Many like you have transitioned successfully."
+- Disinterest → "Thanks! You're always welcome to reach out later."
+
+Qualified lead format (JSON):
+{
+  "name": "User Name",
+  "email": "user@example.com",
+  "phone": "9999999999",
+  "background": "tech",
+  "type": "student",
+  "track": "Data Science"
+}

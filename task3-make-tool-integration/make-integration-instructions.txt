@@ -1,0 +1,19 @@
+
+Step-by-Step Instructions:
+
+1. Create a Webflow form with fields:
+   - Name
+   - Email
+
+2. Go to Make (make.com) and:
+   - Create a new scenario
+   - Add a custom webhook module (copy the URL)
+   - Connect it to Google Sheets: Add a new row
+   - Add Gmail module: Send confirmation email
+
+3. Test: Submit form → See data in sheet → Receive email
+
+Required Links:
+- Form: <your-form-link>
+- Sheet: <your-sheet-link>
+- Video: <your-demo-video-link>
