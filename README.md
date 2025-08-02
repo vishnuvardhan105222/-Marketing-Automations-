@@ -26,7 +26,7 @@ This project is focused on:
 
 ---
 
-## 📂 Getting Started
+## 📂 Getting Started  Live Server (https://marketingautonomus.netlify.app/)
 
 ### Prerequisites
 - Node.js (v18+ recommended)
